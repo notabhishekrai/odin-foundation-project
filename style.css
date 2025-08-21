@@ -4,3 +4,10 @@
     box-sizing: border-box;
     font-family: Roboto, serif;
 }
+
+:root{
+    --dark-bg-color: #1f2937;
+    --light-blue: #3882f8;
+    --light-bg-color: #e5e7eb;
+    --light-text: #f9faf8;
+}
