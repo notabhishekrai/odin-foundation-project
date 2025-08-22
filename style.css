@@ -98,7 +98,7 @@ ul{
 }
 
 button{
-    padding: 10px 20px;
+    padding: 8px 40px;
     font-size: var(--body-text);
     font-weight: 900;
     color: var(--light-text);
@@ -109,7 +109,7 @@ button.hero-btn{
     background-color: var(--light-blue);
 }
 
-button.hero-btn:hover{
+button.hero-btn:hover, button.cta-btn:hover{
     opacity: .8;
     cursor: pointer;
 }
@@ -197,8 +197,56 @@ strong.quote-author{
 
 /* begin CTA section */
 
+.cta-wrapper{
+    padding: 120px 12%;
+}
 
+.cta-container{
+    background-color: var(--light-blue);
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
 
+.cta-container > .cta-txt{
+    flex-basis: 500px;
+    flex-shrink: 0;
+}
+
+.cta-container > .cta-txt > h2, .cta-container > .cta-txt > p{
+    color: var(--light-text);
+}
+
+.cta-container > .cta-txt > h2{
+    font-size: var(--logo-text);
+    margin-bottom: 10px;
+}
+
+.cta-btn{
+    background-color: transparent;
+    border: 2px solid var(--light-text);
+    border-radius: 4px;
+}
 
 
 /* end CTA section */
+
+
+
+
+/* begin footer */
+
+.footer{
+    background-color: var(--dark-bg-color);
+    padding: 20px 0;
+}
+
+.footer > p{
+    font-size: var(--body-text);
+    color: var(--light-text);
+    text-align: center;
+}
+
+/* end footer */
