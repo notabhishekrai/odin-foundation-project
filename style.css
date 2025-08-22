@@ -17,3 +17,36 @@
     --logo-text: 24px;
     --header-quote-text: 36px;
 }
+
+.header{
+    background-color: var(--dark-bg-color);
+
+}
+
+.nav, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    padding: 20px 30px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+.links > li > a{
+    text-decoration: none;
+    color: var(--light-text);
+    font-size: var(--body-text);
+}
+
+.nav > .logo{
+    font-size: var(--logo-text);
+    color: var(--light-text);
+    font-weight: 900;
+}
