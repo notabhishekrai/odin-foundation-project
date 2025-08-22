@@ -18,6 +18,8 @@
     --header-quote-text: 36px;
 }
 
+/* begin header section */
+
 .header{
     background-color: var(--dark-bg-color);
 
@@ -30,17 +32,22 @@
 }
 
 .nav{
-    padding: 20px 30px;
+    padding: 20px 12%;
 }
 
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 30px;
 }
 .links > li > a{
     text-decoration: none;
+    color: var(--light-text);
+    font-size: var(--body-text);
+}
+.links > li > a:hover{
+    text-decoration: underline;
     color: var(--light-text);
     font-size: var(--body-text);
 }
@@ -50,3 +57,104 @@ ul{
     color: var(--light-text);
     font-weight: 900;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 12%;
+    margin-top: 130px;
+    min-height: 100vh;
+}
+
+.hero-txt{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.hero-txt > h2{
+    font-size: var(--title-font);
+    color: var(--light-text);
+    font-weight: 900;
+}
+
+
+.hero-txt p{
+    margin-top: 10px;
+    font-size: var(--body-text);
+    color: var(--light-text);
+}
+
+.hero-img{
+    flex-basis: 300px;
+}
+
+.hero-img img{
+    border: 10px solid var(--light-bg-color);
+    
+}
+
+button{
+    padding: 10px 20px;
+    font-size: var(--body-text);
+    font-weight: 900;
+    color: var(--light-text);
+    border: none;
+}
+
+button.hero-btn{
+    background-color: var(--light-blue);
+}
+
+button.hero-btn:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+/* end header section */
+
+.main{
+    padding: 80px 12% 0 12%;
+}
+
+/* begin info section */
+
+.info-section{
+    margin-bottom: 80px;
+}
+
+.info-section h2{
+    text-align: center;
+    font-size: var(--logo-text);
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-cards > .card{
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.info-cards > .card > .card-img > img{
+    max-width: 80px;
+}
+
+.info-cards > .card > .card-txt{
+    text-align: center;
+    font-size: var(--body-text);
+}
+
+
+/* end info section */
