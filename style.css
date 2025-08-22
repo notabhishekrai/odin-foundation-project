@@ -117,7 +117,7 @@ button.hero-btn:hover{
 /* end header section */
 
 .main{
-    padding: 80px 12% 0 12%;
+    margin-top: 80px;
 }
 
 /* begin info section */
@@ -158,3 +158,47 @@ button.hero-btn:hover{
 
 
 /* end info section */
+
+
+
+
+
+/* begin quote section */
+
+.quote{
+    background-color: var(--light-bg-color);
+    padding: 120px 12%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper{
+    flex-basis: 700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote > .quote-wrapper > .quote-txt{
+    font-size: var(--header-quote-text);
+    font-style: italic;
+    font-weight: light;
+    margin-bottom: 20px;
+}
+
+strong.quote-author{
+    align-self: flex-end;
+    font-size: var(--body-text);
+}
+
+/* end quote section */
+
+
+
+/* begin CTA section */
+
+
+
+
+
+/* end CTA section */
